@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "outfit","regular";
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    width:100vw;
+    height:100vh;
+
+    display: grid;
+    place-items:center;
+}
+
+div.rosado{
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 4rem;
+    border-radius: 30px;
+}
+
+img{
+    width: 100%;
+    height: 15rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.first-section{/**/
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section{/*Puedo crear una clase con caracteristicas generales para varias cajas asignandole otro nombre de clase a estas.*/
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+    }
+}
+
+.second-section{/*Preparacion*/
+    background-color: aliceblue;
+    padding: 1.5rem;
+}
+
+.third-section{
+    
+}
