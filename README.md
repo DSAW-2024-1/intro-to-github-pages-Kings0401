@@ -24,6 +24,13 @@ En la segunda parte debemos generar los estilos necesarios para que la página c
 ### Créditos
 - [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
+## Fotos juegos
+<img src="assets/images/Imagen de WhatsApp 2024-02-06 a las 21.13.55_6f167e24.jpg">
+
+<img src="assets/images/Imagen de WhatsApp 2024-02-04 a las 21.08.31_b29fc37a.jpg">
+
+<img src="assets/images/image.png">
+
 # Mi primera página en internet
 Este será el repositorio que usarán para subir su primera página a internet a través de Github Pages.
 
@@ -37,9 +44,3 @@ Para esto es necesario que suban los cambios de su repositorio anterior a este r
 ## Sitio web Desplegado
 El taller estará finalizado una vez suban su página a internet y agregue a continuación el link:
 - **Link del sitio web desplegado:**
-
-
-## Fotos juegos
-![alt text](<Imagen de WhatsApp 2024-02-06 a las 21.13.55_6f167e24-1.jpg>)
-
-## 

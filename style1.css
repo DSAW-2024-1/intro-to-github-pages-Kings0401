@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: "outfit","regular";
+    font-family: 'Outfit','regular';
 }
 
 body{
@@ -15,48 +15,82 @@ body{
 }
 
 div.rosado{
-    width: 40%;
+    width: 50%;
+    height: 100%;
     background-color: hsl(0, 0%, 100%);
-    padding: 4rem;
+    padding: 3rem;
     border-radius: 30px;
 }
 
 img{
     width: 100%;
     height: 15rem;
+    border-radius: 30px;
+    gap:0.5rem;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+h2{
+    color: #824633;
+}
+
+h3{
+    color: #7d3151;
+}
+
+h4{
+    display: inline-block;
+    margin-right: 10px;
+    color: #804938;
 }
 
 p{
     font-size: 1rem;
 }
 
-.first-section{/**/
+.preparacion{/**/
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 0.5rem;
+    background-color:#f6f4f2;
+    padding-inline-start: 3rem;
+    padding-block: 1rem;
+    border-radius: 30px;
 }
 
-.section{/*Puedo crear una clase con caracteristicas generales para varias cajas asignandole otro nombre de clase a estas.*/
+.ingredientes{/*Preparacion*/
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-
-    ul{
-        display: flex;
-        flex-direction: column;
-        background-color: blue;
-    }
-}
-
-.second-section{/*Preparacion*/
-    background-color: aliceblue;
     padding: 1.5rem;
+    align-items: flex-start;
 }
 
-.third-section{
-    
+
+.instrucciones {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: flex-start;
+}
+
+table {
+    width: 80%;
+    font-family: 'Outfit',"regular";
+  }
+  
+th, td {
+    border-bottom: 1.5px solid #ddcece; 
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    color: #6E4D44;
+    margin-bottom: 10px;
+    font-family: 'Outfit',"regular";
+    font-weight: 100;
+}
+br{
+    line-height: 0.5px;
 }
